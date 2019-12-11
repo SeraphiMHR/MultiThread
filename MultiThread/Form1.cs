@@ -40,7 +40,7 @@ namespace MultiThread
                 this.CreateGraphics().DrawLine(new Pen(Color.Red, 3), x + 10, y + 5, x, y + 5);
                 this.CreateGraphics().DrawLine(new Pen(Color.Red, 3), x, y + 5, x, y + 10);
                 this.CreateGraphics().DrawLine(new Pen(Color.Red, 3), x, y + 10, x + 10, y + 10);
-                Thread.Sleep(100);
+                Thread.Sleep(120);
 
             }
         }
@@ -58,7 +58,7 @@ namespace MultiThread
                 this.CreateGraphics().DrawLine(new Pen(Color.Orange, 3), x, y + 5, x+10, y + 5);
                 this.CreateGraphics().DrawLine(new Pen(Color.Orange, 3), x + 10, y + 5, x + 10, y + 10);
                 this.CreateGraphics().DrawLine(new Pen(Color.Orange, 3), x + 10, y + 10, x, y + 10);
-                Thread.Sleep(100);
+                Thread.Sleep(120);
 
             }
         }
@@ -89,7 +89,7 @@ namespace MultiThread
                 this.CreateGraphics().DrawLine(new Pen(Color.Blue, 3), x, y + 7.5f, x + 7.5f, y + 7.5f);
                 this.CreateGraphics().DrawLine(new Pen(Color.Blue, 3), x + 7.5f, y + 7.5f, x + 7.5f, y);
                 this.CreateGraphics().DrawLine(new Pen(Color.Blue, 3), x + 7.5f, y, x + 7.5f, y + 15f);
-                Thread.Sleep(100);
+                Thread.Sleep(120);
             }
         }
         public void func4()
@@ -104,7 +104,7 @@ namespace MultiThread
                 this.CreateGraphics().DrawLine(new Pen(Color.Green, 3), x + 10, y - 5, x, y - 5);
                 this.CreateGraphics().DrawLine(new Pen(Color.Green, 3), x, y - 5, x, y - 10);
                 this.CreateGraphics().DrawLine(new Pen(Color.Green, 3), x, y - 10, x + 10, y - 10);
-                Thread.Sleep(100);
+                Thread.Sleep(120);
             }
         }
         private void button1_Click(object sender, EventArgs e)
